@@ -1,0 +1,7 @@
+## Visualization of Water Level Data
+## Sonic and Visual Representation of Natural Data by Ben Holtzman, Spring 2017
+### Tomer Solomon Mate
+
+
+For this project, I wanted to fuse together art and sound to visualize the changing of water level across the United States. The final result can be found in the mp4 file. I used the National Oceanic and Atmospheric Administration database, specifically gathering raw data such as water level, air temperature, water temperature, etc.. using their API. For the visualization, I mapped water level to the location of the slider to parallel buoy's floating up and down, and the color of the slider's is dependent on the water level for the water station. Finally, the background color is an average of the water temperature across the 4 water stations. The water stations used are 2 in CA, 1 in TX, and 1 in FL. For the sound, I mapped the water level to a scale, and if you listen you can hear the periodicity of the water level as the scale climbs up and down. I also used granular synthesis to create an ambiance feel. This was done using Brad Garton's RTC Mix (http://rtcmix.org/), a digital sound synthesis library. The sound/visualization work is initially based off of Ben Holtzman's tutorials (http://www.ldeo.columbia.edu/~benh/courses/CMCclass_spr17/). This art piece was presented at the Lahomnt-Doherty Earth Observatory in conjunction with other pieces that use technology to better understand natural phenomena.
+
